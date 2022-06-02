@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>UATeroid</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="css/navigation.css" rel="stylesheet" type="text/css">
+  <link href="css/background.css" rel="stylesheet" type="text/css">
+  <link href="img/UA.png" rel="shortcut icon">
+  <!--•Слава Україні, Героям Слава, Слава Нації, пиздець російській педерації (29.05.2022 )•-->
+</head>
+
+<body>
+  <div class="container">
+    <div class="element">
+      <img draggable="false" src="img/UA.png"></img>
+      <h1>UATeroid</h1>
+
+      <section>
+        <ul>
+        <li title="GitHub"><a href="https://github.com/UATeroid"><i class="fab fa-github"></i></a></li>
+        <li title="Telegram"><a href="https://t.me/UATeroid"><i class="fab fa-telegram"></i></a></li>
+        <li title="YouTube"><a href="https://www.youtube.com/channel/UCn8UjDGRsAq1oHkZAQAT31g"><i class="fab fa-youtube"></i></a></li>
+        <li title="Discord" onclick="alert('TerooopsID#5181')"><a href="#"><i class="fab fa-discord"></i></a></li>
+        <li title="Gmail"><a href="mailto:UATeroid@gmail.com"><i class="far fa-envelope"></i></a></li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="navigationContainer">
+      <div class="navigation">
+        <ul></ul>
+      </div>
+      <div class="toggle"></div>
+    </div>
+  </div>
+</body>
+
+<script>
+  document.querySelector('.toggle').onclick = function() {
+    this.classList.toggle('active');
+    document.querySelector('.navigation').classList.toggle('active');
+    document.querySelector('.navigationContainer').classList.toggle('active');
+  }
+</script>
+
+<script src="https://kit.fontawesome.com/31249f53f3.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
